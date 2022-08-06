@@ -21,7 +21,7 @@ div {
 }
 
 h1 {
-    text-align: center;
+    text-align: center!important;
     color:powderblue;
     font-style: oblique;
     font-size: 55px;
