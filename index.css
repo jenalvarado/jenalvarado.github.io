@@ -1,16 +1,85 @@
 @font-face {
-    font-family: 'Cherl';
-    src: url('cherl___.TTF')
-    format('TTF'),
-    url('cherlBold___.TTF')
-    format('TTF');
+    font-family: 'Enung';
+    src: url('enung.otf')
+    format('otf'),
 }
 
-html, body {
-    height:100%;
+body {
+    margin: 0;
+    font-family: 'Enung', sans-serif;
+    font-weight: 400;
 }
 
-img {
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #f9f3de;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a {
+    color: #d4b0ac;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #fdd9ce;
+}
+
+nav a:before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #fdd9ce;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/*img {
     width: 40px;
     height: 40px;
     margin: 5px;
@@ -25,8 +94,7 @@ h1 {
     color:powderblue;
     font-style: oblique;
     font-size: 55px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family:'Enung', Calibri;
 }
 
 .mainpage {    
@@ -46,3 +114,4 @@ p{
     font-size: 15px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+*/
