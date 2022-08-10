@@ -100,6 +100,60 @@ h1 {
     font-family:'Enung', Calibri;
 }
 
+/* CONTACT CSS */
+body .contact {
+    background-image: url(wallpaper2.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact {
+    padding: 50px 0 80px;
+    text-align: center;
+ 
+}
+
+.contact p {
+    padding-bottom: 80px;
+    font-weight: bold;
+    color:#F8F8FF;
+}
+
+.contact h2 {
+    color: #F8F8FF;
+    margin: 20px 0 20px;
+  
+}
+
+.contact .input-group {
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    border-radius: 0 !important;
+}
+
+.contact span {
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    background-color: #a85959 !important;
+    color: #fff !important;
+}
+
+/* END OF CONTACT CSS */
+
 .mainpage {    
     height:100%;
 }
@@ -109,7 +163,6 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px #635256;
     border-radius: 50%;
     margin: auto auto;
 }
