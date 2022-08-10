@@ -111,7 +111,7 @@ h1 {
 
 /* CONTACT CSS */
 body .contact {
-    background-image: url(wallpaper.png);
+    background-image: url(wallpaper2.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -127,13 +127,6 @@ body .contact {
 .contact p {
     padding-bottom: 80px;
     font-weight: bold;
-    color:#F8F8FF;
-}
-
-.contact h2 {
-    color: #F8F8FF;
-    margin: 20px 0 20px;
-  
 }
 
 .contact .input-group {
@@ -152,13 +145,13 @@ body .contact {
     border-radius: 0;
     width: 100%;
     font-size: 15px;
-    background-color: #f08080;
+    background-color: #fdd9ce;
     color: #fff;
 }
 
 .contact .btn:hover {
-    background-color: #a85959 !important;
-    color: #fff !important;
+    background-color: #f9f3de !important;
+    color: #d4b0ac !important;
 }
 
 /* END OF CONTACT CSS */
