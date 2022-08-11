@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Enung', sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     background-image: url("wallpaper.png");
         background-repeat: no repeat;
@@ -28,8 +28,8 @@ header::after{
 
 .logo {
     float: left;
-    margin-left: 70px;
-    padding-top: 23px;
+    margin: 0 0 70px 0;
+    padding: 0 10px 10px 0;
 }
 
 nav {
@@ -80,41 +80,6 @@ nav a:hover::before {
 
 /* END NAVBAR CSS */
 
-/* RESUME CSS */
-
-h2, h3 {
-    color: #cebebe;
-    text-align: center;
-    font-weight: normal;
-}
-
-h4{
-    color: #635256;
-    text-align: left;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.resume p{
-    color: #7f3a4f;
-    font-weight: bold;
-    text-align: left;
-}
-
-.resume p2{
-    color: #7f3a4f;
-    text-align: left!important;
-
-}
-
-h5{
-    color: #635256;
-    text-align: left;
-    text-decoration: underline;
-}
-
-/* END RESUME CSS */
-
 img {
     width: 40px;
     height: 40px;
@@ -130,7 +95,7 @@ h1 {
     color: #635256;
     font-style: oblique;
     font-size: 55px;
-    font-family:'Enung', Calibri;
+    font-family: Calibri;
 }
 
 /* CONTACT CSS */
@@ -180,6 +145,46 @@ body .contact {
 
 /* END OF CONTACT CSS */
 
+/* RESUME CSS */
+
+h2, h3 {
+    color: #cebebe;
+    text-align: center;
+    font-weight: normal;
+}
+
+h4{
+    color: #635256;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.resume p{
+    color: #7f3a4f;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resume p2{
+    color: #7f3a4f;
+    text-align: left!important;
+}
+
+h5{
+    color: #635256;
+    text-align: left;
+    text-decoration: underline;
+}
+
+/* END RESUME CSS */
+
+/* PROJECT CSS */
+
+
+
+/* END PROJECT CSS */
+
 .mainpage {    
     height:100%;
 }
@@ -196,5 +201,5 @@ body .contact {
 p{
     color: #7f3a4f;
     font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Calibri;
 }
