@@ -26,28 +26,30 @@
             <div class="container">
                 <div class="row">
                     <h1>Contact</h1>
-                    <p>Submit any questions, comments, or concerns below and we will get back to you as soon as possible</p>
+                    <p>Submit any questions, comments, or concerns below and I will get back to you as soon as possible</p>
         
-                    <div class="col-lg-6 col-md-6">
-                        <div class="input-group input-group-lg">
-                            <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
-                            <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Full Name">
-                        </div>
-                        <div class="input-group input-group-lg">
-                            <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                            <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Email Address">
-                        </div>
-                        <div class="input-group input-group-lg">
-                            <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                            <input type="text" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone Number">
-                        </div>
+                    <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">Full Name</label>
+                          <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+
+                          <label for="eaddress">Email Address</label>
+                          <input type= "email" id="eaddress" name="emailaddress" placeholder="Your email address..">
+
+                          <label for="pnumber">Phone Number</label>
+                          <input type = "number" id="pnumber" name = "phonenumber" placeholder = "Your phone number..">
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id= "subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
                     </div>
-        
-                    <div class="col-lg-6 col-md-6">
-                        <div class="input-group">
-                            <textarea cols="80" rows="6" class="form-control"></textarea>
-                        </div>
-                        <button class="btn btn-lg" >Submit Your Message</button>
+
+                    <div class = "contact">
+                        <p>You can contact me at: </p>
                         <a href="https://github.com/jenalvarado"><img src="github.png" alt="My Github"></a>
                         <a href="https://www.linkedin.com/in/jenyalvarado/"><img src="linkedIn.png" alt="My LinkedIn"></a>
                     </div>
