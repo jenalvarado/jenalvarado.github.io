@@ -147,34 +147,12 @@ body .contact {
 
 /* RESUME CSS */
 
-h2, h3 {
-    color: #cebebe;
-    text-align: center;
-    font-weight: normal;
-}
-
-h4{
-    color: #635256;
-    text-align: left;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.resume p{
-    color: #7f3a4f;
-    font-weight: bold;
-    text-align: left;
-}
-
-.resume p2{
-    color: #7f3a4f;
-    text-align: left!important;
-}
-
-h5{
-    color: #635256;
-    text-align: left;
-    text-decoration: underline;
+.resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 75%;
 }
 
 /* END RESUME CSS */
