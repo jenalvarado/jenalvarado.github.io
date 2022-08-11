@@ -88,20 +88,14 @@ nav a:hover::before {
 
 /* RESUME CSS */
 
-h2 {
+h2, h3 {
     color: #cebebe;
     text-align: center;
     font-weight: normal;
 }
 
-h3{
-    color: #e2dadb;
-    text-align: center;
-    font-weight: normal;
-}
-
 h4{
-    color: #fbf5f3;
+    color: #635256;
     text-align: left;
     text-decoration: underline;
     text-transform: uppercase;
@@ -120,7 +114,7 @@ h4{
 }
 
 h5{
-    color: #cebebe;
+    color: #635256;
     text-align: left;
     text-decoration: underline;
 }
