@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Enung';
-    src: url('enung.otf')
-    format('otf'),
-}
-
 body {
     margin: 0;
     font-family: 'Enung', sans-serif;
