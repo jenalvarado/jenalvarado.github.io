@@ -86,10 +86,46 @@ nav a:hover::before {
 
 /* END NAVBAR CSS */
 
-.resume img{
-    height: 300;
-    width: 300;
+/* RESUME CSS */
+
+h2 {
+    color: #cebebe;
+    text-align: center;
+    font-weight: normal;
 }
+
+h3{
+    color: #e2dadb;
+    text-align: center;
+    font-weight: normal;
+}
+
+h4{
+    color: #fbf5f3;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.resume p{
+    color: #7f3a4f;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resume p2{
+    color: #7f3a4f;
+    text-align: left;
+
+}
+
+h5{
+    color: #cebebe;
+    text-align: left;
+    text-decoration: underline;
+}
+
+/* END RESUME CSS */
 
 img {
     width: 40px;
