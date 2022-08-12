@@ -79,8 +79,8 @@ nav a:hover::before {
 }
 
 .navbar img {
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
 }
 
 /* END NAVBAR CSS */
@@ -107,7 +107,7 @@ h1 {
     width: 25%;
 }
 
-.visual studio code img{
+.visualstudiocode img{
     display: block;
     margin-left: auto;
     margin-right: auto;
