@@ -203,6 +203,96 @@ input[type=submit]:hover {
 
 /* END OF CONTACT CSS */
 
+/* PROJECTS CSS */
+
+.projects{
+    width: 75%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.slides{
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%, -50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #fff;
+}
+
+input[name = "r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.sportsEqSlides{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.images{
+    width: 75%;
+    height: 50%;
+}
+
+.images img{
+    width: 75%;
+    height:50%;
+}
+
+#r1:checked ~ .i1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .i1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .i1{
+    margin-left: -40%;
+}
+
+#r4:checked ~ .i1{
+    margin-left: -60%;
+}
+
+#r5:checked ~ .i1{
+    margin-left: -80%;
+}
+
+#r6:checked ~ .i1{
+    margin-left: -100%;
+}
+
+#r7:checked ~ .i1{
+    margin-left: -120%;
+}
+
+#r8:checked ~ .i1{
+    margin-left: -140%;
+}
+
+/* END PROJECTS CSS */
+
 /* RESUME CSS */
 
 .resume{
