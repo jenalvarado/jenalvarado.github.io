@@ -78,13 +78,13 @@ nav a:hover::before {
     width: 100%;
 }
 
-/* END NAVBAR CSS */
-
-img {
+.navbar img {
     width: 55px;
     height: 55px;
     margin: 5px;
 }
+
+/* END NAVBAR CSS */
 
 div {
     text-align: center;
