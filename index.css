@@ -31,7 +31,7 @@ header::after{
     margin: 0 0 70px 0;
     padding: 0 10px 10px 0;
     display: block;
-    width: 75%;
+    width: 50%;
 
 }
 
@@ -106,8 +106,8 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 10%;
-    width: 15%;
+    height: 15%;
+    width: 25%;
 }
 
 .visualstudiocode img{
@@ -130,16 +130,16 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 7%;
-    width: 20%;
+    height: 5%;
+    width: 15%;
 }
 
 .codecademy img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 7%;
-    width: 20%;
+    height: 5%;
+    width: 15%;
 }
 
 .websites p{
@@ -213,6 +213,7 @@ label{
 
 /* END PROJECT CSS */
 
+/* MAIN CSS */
 .mainpage {    
     height:100%;
 }
@@ -226,6 +227,14 @@ label{
     margin: auto auto;
 }
 
+.nameAndDescription img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 25%;
+}
+
 p{
     color: #7f3a4f;
     font-size: 15px;
@@ -233,3 +242,5 @@ p{
     padding-bottom: 80px;
     font-weight: bold;
 }
+
+/* END MAIN CSS*/
