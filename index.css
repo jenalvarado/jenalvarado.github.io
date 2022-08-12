@@ -28,9 +28,11 @@ header::after{
 
 .logo {
     float: left;
-    height:5px
     margin: 0 0 70px 0;
     padding: 0 10px 10px 0;
+    display: block;
+    width: 50%;
+
 }
 
 nav {
@@ -79,6 +81,11 @@ nav a:hover::before {
     width: 100%;
 }
 
+.navbar img {
+    width: 55px;
+    height: 55px;
+}
+
 /* END NAVBAR CSS */
 
 div {
@@ -108,7 +115,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height: 5%;
-    width: 20%;
+    width: 15%;
 }
 
 .github img{
@@ -116,7 +123,23 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height: 5%;
-    width: 20%;
+    width: 15%;
+}
+
+.leetcode img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5%;
+    width: 15%;
+}
+
+.codecademy img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5%;
+    width: 15%;
 }
 
 .websites p{
@@ -126,11 +149,6 @@ h1 {
 /* END LINKS RECOMMENDED CSS */
 
 /* CONTACT CSS */
-
-.contact img {
-    width: 75px;
-    height: 75px;
-}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type = text], input[type = email], input[type= number ], select, textarea {
