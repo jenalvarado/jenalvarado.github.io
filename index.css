@@ -205,12 +205,6 @@ input[type=submit]:hover {
 
 /* PROJECTS CSS */
 
-.projects{
-    width: 75%;
-    height: 50%;
-    overflow: hidden;
-}
-
 .slides{
     position: absolute;
     top: 50%;
