@@ -183,8 +183,11 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-label{
-    text-align: left;
+.contact p{
+    color: #7f3a4f;
+    font-size: 15px;
+    font-family:Calibri;
+    font-weight: bold;
 }
 
 /* END OF CONTACT CSS */
