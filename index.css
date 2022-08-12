@@ -182,12 +182,21 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.contact p{
+.row p{
+    color: #7f3a4f;
+    font-size: 15px;
+    font-family:Calibri;
+    padding-bottom: 80px;
+    font-weight: bold;
+}
+
+.container p{
     color: #7f3a4f;
     text-align: left!important;
     font-size: 15px;
     font-family:Calibri;
     font-weight: bold;
+    padding: 0;
 }
 
 /* END OF CONTACT CSS */
