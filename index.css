@@ -80,12 +80,6 @@ nav a:hover::before {
 
 /* END NAVBAR CSS */
 
-img {
-    width: 40px;
-    height: 40px;
-    margin: 5px;
-}
-
 div {
     text-align: center;
 }
