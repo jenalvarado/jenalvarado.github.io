@@ -166,3 +166,14 @@ input[name = "r"]{
 #r8:checked ~ .i1{
     margin-left: -140%;
 }
+
+/* HEADING CSS */
+h1 {
+    text-align: center!important;
+    color: #635256;
+    font-style: oblique;
+    font-size: 55px;
+    font-family: Calibri;
+}
+
+/* END HEADING CSS */
