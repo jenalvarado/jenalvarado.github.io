@@ -101,7 +101,7 @@ h1 {
 /* CONTACT CSS */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type = text], input[type = email], input[type= number ], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #d4b0ac; /* Light brown border */
@@ -111,7 +111,7 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-  
+   
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #635256;
