@@ -28,8 +28,8 @@ header::after{
 
 .logo {
     float: left;
-    height: auto;
-    width: auto;
+    height: 35;
+    width: 35;
     margin: 0 0 70px 0;
     padding: 0 10px 10px 0;
 }
@@ -105,8 +105,8 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50%;
-    width: 50%;
+    height: 25%;
+    width: 25%;
 }
 
 .youtube p{
