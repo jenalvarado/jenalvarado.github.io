@@ -81,11 +81,6 @@ nav a:hover::before {
     width: 100%;
 }
 
-.navbar img {
-    width: 55px;
-    height: 55px;
-}
-
 /* END NAVBAR CSS */
 
 div {
@@ -149,6 +144,11 @@ h1 {
 /* END LINKS RECOMMENDED CSS */
 
 /* CONTACT CSS */
+
+.contact img {
+    width: 55px;
+    height: 55px;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type = text], input[type = email], input[type= number ], select, textarea {
