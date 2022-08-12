@@ -104,8 +104,12 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 75%;
+    height: 100%;
     width: 85%;
+}
+
+.youtube p{
+    text-align: center;
 }
 
 /* END LINKS RECOMMENDED CSS */
