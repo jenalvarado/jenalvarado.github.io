@@ -28,7 +28,7 @@ header::after{
 
 .logo {
     float: left;
-    height:15px
+    height:5px
     margin: 0 0 70px 0;
     padding: 0 10px 10px 0;
 }
@@ -104,6 +104,14 @@ h1 {
 }
 
 .visualstudiocode img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5%;
+    width: 15%;
+}
+
+.github img{
     display: block;
     margin-left: auto;
     margin-right: auto;
