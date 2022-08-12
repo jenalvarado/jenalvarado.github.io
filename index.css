@@ -133,10 +133,6 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-fname, eaddress, pnumber, subject, submit{
-    text-align: left;
-}
-
 /* END OF CONTACT CSS */
 
 /* RESUME CSS */
