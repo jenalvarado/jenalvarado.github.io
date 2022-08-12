@@ -186,6 +186,7 @@ input[type=submit]:hover {
     color: #7f3a4f;
     font-size: 15px;
     font-family:Calibri;
+    text-align: center!important;
     padding-bottom: 80px;
     font-weight: bold;
 }
