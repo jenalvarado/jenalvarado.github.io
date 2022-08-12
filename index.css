@@ -145,6 +145,11 @@ input[type=submit]:hover {
     width: 75%;
 }
 
+label{
+    text-align: left;
+}
+
+
 /* END RESUME CSS */
 
 /* PROJECT CSS */
