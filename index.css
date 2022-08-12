@@ -81,7 +81,6 @@ nav a:hover::before {
 .navbar img {
     width: 55px;
     height: 55px;
-    margin: auto;
 }
 
 /* END NAVBAR CSS */
