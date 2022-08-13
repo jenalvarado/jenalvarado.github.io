@@ -29,8 +29,9 @@ header::after{
 .logo {
     float: left;
     margin: 0 0 0 0;
-    padding: .5px 0 0 0;
+    padding: 0 0 0 0;
     display: block;
+    position: relative;
     height: 25%;
     width: 20%;
 }
