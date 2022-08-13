@@ -206,70 +206,9 @@ input[type=submit]:hover {
 
 /* PROJECTS CSS */
 
-.slides{
-    transform: translate(0%, 0%);
-}
-
-.navigation{
-    transform: translate(-50%);
-    display: flex;
-}
-
-.bar{
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.bar:hover{
-    background: #fff;
-}
-
-input[name = "r"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-.sportsEqSlides{
-    transition: 0.6s;
-}
-
 .images img{
     width: 75%;
     height:50%;
-}
-
-#r1:checked ~ .i1{
-    margin-left: 0;
-}
-
-#r2:checked ~ .i1{
-    margin-left: -20%;
-}
-
-#r3:checked ~ .i1{
-    margin-left: -40%;
-}
-
-#r4:checked ~ .i1{
-    margin-left: -60%;
-}
-
-#r5:checked ~ .i1{
-    margin-left: -80%;
-}
-
-#r6:checked ~ .i1{
-    margin-left: -100%;
-}
-
-#r7:checked ~ .i1{
-    margin-left: -120%;
-}
-
-#r8:checked ~ .i1{
-    margin-left: -140%;
 }
 
 /* END PROJECTS CSS */
