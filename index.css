@@ -207,22 +207,15 @@ input[type=submit]:hover {
 /* PROJECTS CSS */
 
 .slides{
-    top: 50%;
-    left: 50;
     transform: translate(0%, 0%);
 }
 
 .navigation{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
     transform: translate(-50%);
     display: flex;
 }
 
 .bar{
-    width: 50px;
-    height: 10px;
     border: 2px solid #fff;
     margin: 6px;
     cursor: pointer;
@@ -239,13 +232,7 @@ input[name = "r"]{
 }
 
 .sportsEqSlides{
-    width: 20%;
     transition: 0.6s;
-}
-
-.images{
-    width: 75%;
-    height: 50%;
 }
 
 .images img{
