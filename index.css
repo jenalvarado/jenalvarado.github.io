@@ -299,18 +299,6 @@ input[name = "r"]{
 
 /* END RESUME CSS */
 
-/* PROJECT CSS */
-
-.sportsEqSlides img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
-    width: 75%;
-}
-
-/* END PROJECT CSS */
-
 /* MAIN CSS */
 .mainpage {    
     height:100%;
