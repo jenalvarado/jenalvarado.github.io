@@ -210,6 +210,15 @@ input[type=submit]:hover {
     height:50%;
 }
 
+.sportsEqSlides p{
+    text-align: center;
+    padding-bottom: 80px;
+    font-weight: bold;
+    color: #7f3a4f;
+    font-size: 15px;
+    font-family:Calibri;
+}
+
 /* END PROJECTS CSS */
 
 /* RESUME CSS */
@@ -246,7 +255,7 @@ input[type=submit]:hover {
     width: 25%;
 }
 
-.sportsEqSlides p, p{
+p{
     color: #7f3a4f;
     font-size: 15px;
     font-family:Calibri;
